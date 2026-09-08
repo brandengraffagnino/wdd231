@@ -120,7 +120,8 @@ main h1 {
 
 .course-buttons {
     display: flex;
-    gap: .5rem;
+    justify-content: center;
+    gap: 1rem;
     padding: 1rem;
 }
 
