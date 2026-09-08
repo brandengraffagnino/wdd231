@@ -5,32 +5,72 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/normalize.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="styles/base.css">
+    <meta name="description" content="WDD231 course home page for Branden Graffagnino">
+    <meta name="author" content="Branden Graffagnino">
+    <title>WDD 231 Home | Branden Graffagnino</title>
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
 </head>
 
 <body>
     <header>
         <img src="images/my-logo.svg" alt="My logo">
-        <h1 class="site-name">My Website</h1>
+        <span class="site-name">Branden Graffagnino</span>
         <button id="menu" aria-label="Navigation Menu"></button>
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li class="current"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Chamber</a></li>
+            <li><a href="index.html">Final</a></li>
         </ul>
     </nav>
     <main>
-        <h1>Welcome to My Website</h1>
-        <p>This is the main content area.</p>
+
+        <h1>Home</h1>
+
+        <div class="top-sections">
+
+            <section class="about">
+                <h2>About Me</h2>
+                <p>
+                    Hello! My name is Branden Graffagnino and I am 21 years old. I love technology and I love playing
+                    pickleball and hanging out with my family. I currently work in the fast-food industry but I am
+                    excited to continue learning about technology!
+                </p>
+            </section>
+            <section class="photo">
+                <h2>Student Photo</h2>
+                <img src="images/profile-picture.jpg" alt="Student Portrait">
+            </section>
+        </div>
+        <section class="certificate">
+            <h2>Web Certificate Courses</h2>
+            <div class="course-buttons">
+                <button id="all-btn">All</button>
+                <button id="cse-btn">CSE</button>
+                <button id="wdd-btn">WDD</button>
+            </div>
+            <div id="course-container"></div>
+            <p id="credits"></p>
+        </section>
     </main>
     <footer>
-        <p>&copy; 2026 My Website</p>
+        <div class="social-links">
+            <a href="https://github.com/brandengraffagnino" target="_blank"><img src="images/github.svg" alt="github icon"></a>
+            <a href="https://linkedin.com/in/brandengraffagnino/" target="_blank"><img src="images/linkedin.svg" alt="linkedin icon"></a>
+            <a href="https://facebook.com/branden.graffagnino" target="_blank"><img src="images/facebook.svg" alt="facebook icon"></a>
+        </div>
+        <p>
+            © <span id="currentyear"></span>
+            Branden Graffagnino 🏝️ Arizona, USA
+        </p>
+        <p id="lastModified"></p>
+
     </footer>
-    <script src="scripts/navigation.js"></script>
 </body>
 
 </html
