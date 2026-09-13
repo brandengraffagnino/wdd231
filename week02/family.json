@@ -1,0 +1,38 @@
+{
+    "family_name": "Graffagnino",
+    "move_in_date": "2024-06-24",
+    "number_of_people": 6,
+    "visited_by_bishopric": true,
+    "family_members": [
+        {
+            "name": "Matthew Graffagnino",
+            "gender": "Male",
+            "birthdate": "1983-02-05"
+        },
+        {
+            "name": "Niky Graffagnino",
+            "gender": "Female",
+            "birthdate": "1983-01-23"
+        },
+        {
+            "name": "Branden Graffagnino",
+            "gender": "Male",
+            "birthdate": "2005-04-14"
+        },
+        {
+            "name": "Tyler Graffagnino",
+            "gender": "Male",
+            "birthdate": "2007-11-17"
+        },
+        {
+            "name": "Logan Graffagnino",
+            "gender": "Male",
+            "birthdate": "2012-02-02"
+        },
+        {
+            "name": "Connor Graffagnino",
+            "gender": "Male",
+            "birthdate": "2020-03-16"
+        }
+    ]
+}
