@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Winco",
+        "address": "1967 E Pecos Rd",
+        "phone": "480-941-6774",
+        "website": "https://wincofoods.com",
+        "image": "winco.jpg",
+        "membership": 3
+    },
+    {
+        "name": "Culver's",
+        "address": "3610 S Val Vista Dr",
+        "phone": "480-825-7400",
+        "website": "https://culvers.com",
+        "image": "culvers.jpg",
+        "membership": 2
+    },
+    {
+        "name": "EoS Fitness",
+        "address": "3025 S Val Vista Dr",
+        "phone": "480-531-1217",
+        "website": "https://eosfitness.com",
+        "image": "eos.jpg",
+        "membership": 2
+    },
+    {
+        "name": "Chick-fil-A",
+        "address": "2533 S Market St",
+        "phone": "480-814-7200",
+        "website": "https://chick-fil-a.com",
+        "image": "chickfila.jpg",
+        "membership": 2
+    },
+    {
+        "name": "Taco Bell",
+        "address": "2881 S Market St",
+        "phone": "480-855-5725",
+        "website": "https://tacobell.com",
+        "image": "tacobell.jpg",
+        "membership": 1
+    },
+    {
+        "name": "Costco Wholesale",
+        "address": "2887 S Market St",
+        "phone": "480-366-3950",
+        "website": "https://costco.com",
+        "image": "costco.jpg",
+        "membership": 3
+    },
+    {
+        "name": "Kelly Automotive",
+        "address": "1750 E Germann Rd",
+        "phone": "480-899-2229",
+        "website": "https://kellyautomotive.net",
+        "image": "kellyautomotive.jpg",
+        "membership": 1
+    }
+]

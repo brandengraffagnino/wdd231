@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Gilbert Chamber of Commerce business directory featuring local businesses, member information, contact details, and community resources.">
+    <meta name="author" content="Branden Graffagnino">
+    <title>Gilbert Chamber of Commerce Directory</title>
+    <meta property="og:title" content="Gilbert Chamber of Commerce Directory">
+    <meta property="og:description" content="Directory of chamber businesses in Gilbert Arizona.">
+    <meta property="og:image" content="https://brandengraffagnino.github.io/wdd231/chamber/images/chamber-logo.png">
+    <meta property="og:url" content="https://brandengraffagnino.github.io/wdd231/chamber/directory.html">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/chamber-logo.png" alt="Gilbert Chamber of Commerce logo">
+        <span class="site-name">Gilbert Chamber of Commerce</span>
+        <button id="menu" aria-label="Navigation Menu"></button>
+    </header>
+
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="current"><a href="directory.html">Directory</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <h1>Business Directory</h1>
+
+        <div class="view-buttons">
+            <button id="grid">Grid View</button>
+            <button id="list">List View</button>
+        </div>
+
+        <section id="members" class="grid"></section>
+
+    </main>
+
+    <footer>
+        <div class="footer-contact">
+            <p><strong>Gilbert Chamber of Commerce</strong></p>
+            <p>119 North Gilbert Road, Ste 101</p>
+            <p>P.O. Box 527</p>
+            <p>Gilbert, AZ 85299-0527</p>
+            <p>info@gilbertchamber.org</p>
+            <p>(480) 892-0056</p>
+
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/brandengraffagnino" target="_blank"><img src="images/github.svg"
+                    alt="github icon"></a>
+            <a href="https://linkedin.com/in/brandengraffagnino/" target="_blank"><img src="images/linkedin.svg"
+                    alt="linkedin icon"></a>
+            <a href="https://facebook.com/branden.graffagnino" target="_blank"><img src="images/facebook.svg"
+                    alt="facebook icon"></a>
+        </div>
+        <p>
+            © <span id="currentyear"></span>
+            Branden Graffagnino | WDD 231 Chamber Project
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
