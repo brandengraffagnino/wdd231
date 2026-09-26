@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join | Gilbert Chamber of Commerce</title>
+    <meta name="description"
+        content="Apply for membership with the Gilbert Chamber of Commerce. Join a network of local businesses and organizations through our chamber membership program.">
+    <meta name="author" content="Branden Graffagnino">
+    <meta property="og:title" content="Join the Gilbert Chamber of Commerce">
+    <meta property="og:description"
+        content="Submit a membership application to become part of the Gilbert Chamber of Commerce and connect with local businesses and organizations.">
+    <meta property="og:image" content="https://brandengraffagnino.github.io/wdd231/chamber/images/gilbert-hero.jpg">
+    <meta property="og:url" content="https://brandengraffagnino.github.io/wdd231/chamber/join.html">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/chamber-logo.png" alt="Gilbert Chamber of Commerce logo">
+        <span class="site-name">Gilbert Chamber of Commerce</span>
+        <button id="menu" aria-label="Navigation Menu"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li class="current"><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Join the Gilbert Chamber of Commerce</h1>
+
+        <div class="join-layout">
+
+            <form method="get" action="thankyou.html">
+
+                <label>
+                    First Name
+                    <input type="text" name="first" required title="Enter your first name" autocomplete="given-name">
+                </label>
+
+                <label>
+                    Last Name
+                    <input type="text" name="last" required title="Enter your last name" autocomplete="family-name">
+                </label>
+
+                <label>
+                    Organizational Title
+                    <input type="text" name="organizationtitle" title="Your position in the organization"
+                        autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}">
+                </label>
+
+                <label>
+                    Email Address
+                    <input type="email" name="email" required title="Enter your email address" autocomplete="email"
+                        placeholder="example@email.com">
+                </label>
+
+                <label>
+                    Mobile Phone
+                    <input type="tel" name="phone" required title="Enter your mobile phone number" autocomplete="tel">
+                </label>
+
+                <label>
+                    Business Name
+                    <input type="text" name="business" required title="Enter your business name"
+                        autocomplete="organization">
+                </label>
+
+                <label>
+                    Membership Level
+                    <select name="membership">
+                        <option value="np">
+                            NP Membership
+                        </option>
+
+                        <option value="bronze">
+                            Bronze Membership
+                        </option>
+
+                        <option value="silver">
+                            Silver Membership
+                        </option>
+
+                        <option value="gold">
+                            Gold Membership
+                        </option>
+                    </select>
+                </label>
+
+                <label>
+                    Business Description
+                    <textarea name="description" title="Describe your business"></textarea>
+                </label>
+
+                <input type="hidden" id="timestamp" name="timestamp">
+
+                <input type="submit" value="Apply for Membership">
+            </form>
+
+            <div class="membership-cards">
+
+                <section class="membership-card">
+                    <h2>NP Membership</h2>
+
+                    <p>
+                        Perfect for nonprofit organizations.
+                    </p>
+                    <a href="#" id="np-link">Learn More</a>
+                </section>
+
+                <section class="membership-card">
+                    <h2>Bronze Membership</h2>
+
+                    <p>
+                        Basic membership benefits for businesses.
+                    </p>
+                    <a href="#" id="bronze-link">Learn More</a>
+                    </a>
+                </section>
+
+                <section class="membership-card">
+                    <h2>Silver Membership</h2>
+
+                    <p>
+                        Expanded advertising and event benefits.
+                    </p>
+                    <a href="#" id="silver-link">Learn More</a>
+                </section>
+
+                <section class="membership-card">
+                    <h2>Gold Membership</h2>
+
+                    <p>
+                        Premium exposure and chamber opportunities.
+                    </p>
+                    <a href="#" id="gold-link">Learn More</a>
+                </section>
+
+            </div>
+
+        </div>
+
+        <dialog id="np-modal">
+            <button class="close">❌</button>
+
+            <h2>NP Membership</h2>
+
+            <p>
+                No-cost membership for nonprofit organizations.
+            </p>
+        </dialog>
+
+        <dialog id="bronze-modal">
+            <button class="close">❌</button>
+
+            <h2>Bronze Membership</h2>
+
+            <p>
+                Includes networking events and directory listing.
+            </p>
+        </dialog>
+
+        <dialog id="silver-modal">
+            <button class="close">❌</button>
+
+            <h2>Silver Membership</h2>
+
+            <p>
+                Includes event discounts and advertising opportunities.
+            </p>
+        </dialog>
+
+        <dialog id="gold-modal">
+            <button class="close">❌</button>
+
+            <h2>Gold Membership</h2>
+
+            <p>
+                Includes spotlight placement and premium promotion.
+            </p>
+        </dialog>
+    </main>
+    <footer>
+        <div class="footer-contact">
+            <p><strong>Gilbert Chamber of Commerce</strong></p>
+            <p>119 North Gilbert Road, Ste 101</p>
+            <p>P.O. Box 527</p>
+            <p>Gilbert, AZ 85299-0527</p>
+            <p>info@gilbertchamber.org</p>
+            <p>(480) 892-0056</p>
+
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/brandengraffagnino" target="_blank"><img src="images/github.svg"
+                    alt="github icon"></a>
+            <a href="https://linkedin.com/in/brandengraffagnino/" target="_blank"><img src="images/linkedin.svg"
+                    alt="linkedin icon"></a>
+            <a href="https://facebook.com/branden.graffagnino" target="_blank"><img src="images/facebook.svg"
+                    alt="facebook icon"></a>
+        </div>
+        <p>
+            © <span id="currentyear"></span>
+            Branden Graffagnino | WDD 231 Chamber Project
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>
