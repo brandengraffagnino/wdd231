@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gilbert Chamber of Commerce Discover Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script type="module" src="scripts/discover.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/chamber-logo.png" alt="Gilbert Chamber of Commerce logo">
+        <span class="site-name">Gilbert Chamber of Commerce</span>
+        <button id="menu" aria-label="Navigation Menu"></button>
+    </header>
+
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li class="current"><a href="discover.html">Discover</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <h1>Discover Gilbert</h1>
+
+        <div id="visit-message"></div>
+
+        <section class="discover-intro">
+            <h2>Explore Gilbert, Arizona</h2>
+
+            <p>
+                Gilbert is one of the fastest-growing communities in Arizona and is known
+                for its family-friendly atmosphere, thriving business community,
+                beautiful parks, entertainment districts, and recreational opportunities.
+                Explore some of the most popular destinations and attractions that make
+                Gilbert a great place to live, work, and visit.
+            </p>
+        </section>
+
+        <div id="discover-grid"></div>
+
+    </main>
+    <footer>
+        <div class="footer-contact">
+            <p><strong>Gilbert Chamber of Commerce</strong></p>
+            <p>119 North Gilbert Road, Ste 101</p>
+            <p>P.O. Box 527</p>
+            <p>Gilbert, AZ 85299-0527</p>
+            <p>info@gilbertchamber.org</p>
+            <p>(480) 892-0056</p>
+
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/brandengraffagnino" target="_blank"><img src="images/github.svg"
+                    alt="github icon"></a>
+            <a href="https://linkedin.com/in/brandengraffagnino/" target="_blank"><img src="images/linkedin.svg"
+                    alt="linkedin icon"></a>
+            <a href="https://facebook.com/branden.graffagnino" target="_blank"><img src="images/facebook.svg"
+                    alt="facebook icon"></a>
+        </div>
+        <p>
+            © <span id="currentyear"></span>
+            Branden Graffagnino | WDD 231 Chamber Project
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

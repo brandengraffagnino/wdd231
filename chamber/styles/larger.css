@@ -1,5 +1,7 @@
 @media screen and (min-width: 768px) {
 
+    /* Navigation */
+
     #menu {
         display: none;
     }
@@ -18,6 +20,8 @@
         flex: 1;
         text-align: center;
     }
+
+    /* Directory */
 
     .grid {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -30,32 +34,7 @@
         gap: 1rem;
     }
 
-    .footer-contact {
-        max-width: 500px;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (min-width: 768px) {
-
-    #menu {
-        display: none;
-    }
-
-    .navigation {
-        display: block;
-    }
-
-    .navigation ul {
-        display: flex;
-        justify-content: center;
-        gap: 1rem;
-    }
-
-    .navigation li {
-        flex: 1;
-        text-align: center;
-    }
+    /* Home */
 
     .home-grid {
         grid-template-columns: 1fr 1fr;
@@ -64,13 +43,67 @@
     #spotlight-container {
         grid-template-columns: repeat(3, 1fr);
     }
-}
 
-@media screen and (min-width: 768px) {
+    /* Join */
 
     .join-layout {
         grid-template-columns: 2fr 1fr;
         align-items: start;
     }
 
+    /* Discover */
+
+    #discover-grid {
+        grid-template-areas:
+            "card1 card2"
+            "card3 card4"
+            "card5 card6"
+            "card7 card8";
+
+        grid-template-columns: 1fr 1fr;
+        align-items: stretch;
+    }
+
+    .discover-card {
+        height: 100%;
+    }
+
+    .discover-card img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        margin: 0 auto;
+
+        transition:
+            transform .3s ease,
+            box-shadow .3s ease;
+    }
+
+    .discover-card img:hover {
+        transform: scale(1.05);
+
+        box-shadow:
+            0 0 15px rgba(0, 0, 0, .3);
+    }
+
+    /* Footer */
+
+    .footer-contact {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    #discover-grid {
+        grid-template-areas:
+            "card1 card2 card3"
+            "card4 card5 card6"
+            "card7 card8 .";
+    }
+
+    .discover-card {
+        height: 100%;
+    }
 }
