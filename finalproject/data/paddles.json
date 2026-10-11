@@ -1,0 +1,152 @@
+[
+    {
+        "brand": "JOOLA",
+        "model": "Perseus Pro V",
+        "generation": "Gen 3",
+        "shape": "Elongated",
+        "price": "$299.95",
+        "skillLevel": "Advanced",
+        "image": "images/perseus-pro-v.webp",
+        "description": "A high-performance paddle offering excellent power, spin, and stability."
+    },
+    {
+        "brand": "JOOLA",
+        "model": "Scorpeus Pro V",
+        "generation": "Gen 3",
+        "shape": "Widebody",
+        "price": "$299.95",
+        "skillLevel": "Advanced",
+        "image": "images/scorpeus-pro-v.webp",
+        "description": "Designed for quick hands and consistent control at the kitchen."
+    },
+    {
+        "brand": "JOOLA",
+        "model": "Hyperion Pro V",
+        "generation": "Gen 3",
+        "shape": "Elongated",
+        "price": "$299.95",
+        "skillLevel": "Intermediate",
+        "image": "images/hyperion-pro-v.webp",
+        "description": "Offers a blend of control, spin, and all-court performance."
+    },
+    {
+        "brand": "CRBN",
+        "model": "1X Power Series",
+        "generation": "Gen 2",
+        "shape": "Elongated",
+        "price": "$149.99",
+        "skillLevel": "Advanced",
+        "image": "images/crbn-1x.webp",
+        "description": "Popular power-oriented paddle with strong spin potential."
+    },
+    {
+        "brand": "CRBN",
+        "model": "2X Power Series",
+        "generation": "Gen 2",
+        "shape": "Hybrid",
+        "price": "$149.99",
+        "skillLevel": "Intermediate",
+        "image": "images/crbn-2x.webp",
+        "description": "Balanced blend of power and control."
+    },
+    {
+        "brand": "CRBN",
+        "model": "3 TruFoam Genesis",
+        "generation": "Gen 4",
+        "shape": "Elongated",
+        "price": "$199.99",
+        "skillLevel": "Advanced",
+        "image": "images/crbn-genesis.webp",
+        "description": "Innovative foam-core paddle focused on consistency and feel."
+    },
+    {
+        "brand": "Six Zero",
+        "model": "Double Black Diamond",
+        "generation": "Gen 2",
+        "shape": "Hybrid",
+        "price": "$180.00",
+        "skillLevel": "Intermediate",
+        "image": "images/six-zero-dbd.webp",
+        "description": "One of the most popular all-around paddles available."
+    },
+    {
+        "brand": "Six Zero",
+        "model": "Ruby",
+        "generation": "Gen 2",
+        "shape": "Hybrid",
+        "price": "$199.00",
+        "skillLevel": "Intermediate",
+        "image": "images/six-zero-ruby.webp",
+        "description": "Known for exceptional spin and touch."
+    },
+    {
+        "brand": "Paddletek",
+        "model": "Bantam ALW-C",
+        "generation": "Gen 1",
+        "shape": "Widebody",
+        "price": "$149.99",
+        "skillLevel": "Intermediate",
+        "image": "images/paddletek-alw.webp",
+        "description": "A control-oriented paddle used by many competitive players."
+    },
+    {
+        "brand": "Paddletek",
+        "model": "Bantam TKO-CX",
+        "generation": "Gen 1",
+        "shape": "Elongated",
+        "price": "$199.99",
+        "skillLevel": "Advanced",
+        "image": "images/paddletek-tko.webp",
+        "description": "Power-focused paddle with a longer reach."
+    },
+    {
+        "brand": "Selkirk",
+        "model": "Luxx Control Air",
+        "generation": "Gen 2",
+        "shape": "Elongated",
+        "price": "$200.00",
+        "skillLevel": "Intermediate",
+        "image": "images/selkirk-luxx.webp",
+        "description": "Emphasizes touch, resets, and soft-game consistency."
+    },
+    {
+        "brand": "Selkirk",
+        "model": "Boomstik",
+        "generation": "Gen 4",
+        "shape": "Elongated",
+        "price": "$333.00",
+        "skillLevel": "Advanced",
+        "image": "images/selkirk-boomstik.webp",
+        "description": "Provides explosive power with a foam core while maintaining spin potential."
+    },
+    {
+        "brand": "Engage",
+        "model": "Pursuit Pro 1",
+        "generation": "Gen 1",
+        "shape": "Hybrid",
+        "price": "$69.99",
+        "skillLevel": "Advanced",
+        "image": "images/engage-pursuit.webp",
+        "description": "Well-rounded paddle suitable for aggressive players."
+    },
+    {
+        "brand": "Gearbox",
+        "model": "PRO ULTIMATE Power Elongated",
+        "generation": "Gen 3",
+        "shape": "Elongated",
+        "price": "$149.99",
+        "skillLevel": "Advanced",
+        "image": "images/gearbox-pupe.webp",
+        "description": "Known for exceptional power and unique gearbox technology."
+    },
+    {
+        "brand": "Volair",
+        "model": "Mach 2 Forza",
+        "generation": "Gen 2",
+        "shape": "Widebody",
+        "price": "$99.99",
+        "skillLevel": "Intermediate",
+        "image": "images/volair-mach-2.webp",
+        "description": "Offers strong spin performance with excellent forgiveness."
+    }
+]

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pickleball Playbook | Equipment Guide</title>
+    <meta name="description"
+        content="Compare pickleball paddles, paddle generations, shapes, and technology to find the best equipment for your playing style.">
+    <meta name="author" content="Branden Graffagnino">
+    <meta property="og:title" content="Pickleball Equipment Guide">
+    <meta property="og:description"
+        content="Learn about paddle generations, shapes, technology, and top pickleball paddles.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-github-pages-url-here/equipment.html">
+    <meta property="og:image" content="https://your-github-pages-url-here/images/hero.webp">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/equipment.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <h1>🏓 Pickleball Playbook</h1>
+        </div>
+        <button id="menu" aria-label="Open navigation menu"></button>
+    </header>
+    <nav class="navigation">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="active" href="equipment.html">
+                    Equipment
+                </a>
+            </li>
+            <li>
+                <a href="courts.html">
+                    Courts & Strategy
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section class="page-intro">
+            <h2>Equipment Guide</h2>
+            <p>
+                Modern pickleball equipment has evolved rapidly.
+                Understanding paddle generations, shapes, and playing
+                characteristics will help you make informed equipment
+                decisions and improve your game.
+            </p>
+        </section>
+        <section class="equipment-overview">
+            <h2>Paddle Generations</h2>
+            <div class="benefits">
+                <article>
+                    <h3>Gen 1</h3>
+                    <p>
+                        Traditional honeycomb-core paddles focused on
+                        consistency and control.
+                    </p>
+                </article>
+                <article>
+                    <h3>Gen 2</h3>
+                    <p>
+                        Thermoformed paddles that increased stability,
+                        spin potential, and power.
+                    </p>
+                </article>
+                <article>
+                    <h3>Gen 3 & Gen 4</h3>
+                    <p>
+                        Advanced foam technologies and innovative core
+                        designs focused on expanding performance.
+                    </p>
+                </article>
+            </div>
+        </section>
+        <section class="filter-section">
+            <h2>Filter Paddles</h2>
+            <label for="generation-filter">
+                Generation
+                <select id="generation-filter">
+                    <option value="all">
+                        All Generations
+                    </option>
+                    <option value="Gen 1">
+                        Gen 1
+                    </option>
+                    <option value="Gen 2">
+                        Gen 2
+                    </option>
+                    <option value="Gen 3">
+                        Gen 3
+                    </option>
+                    <option value="Gen 4">
+                        Gen 4
+                    </option>
+                </select>
+            </label>
+        </section>
+        <section>
+            <h2>Popular Pickleball Paddles</h2>
+            <div id="paddle-container">
+                <!-- Dynamic cards inserted here -->
+            </div>
+        </section>
+    </main>
+    <dialog id="paddle-modal">
+        <div id="modal-content">
+            <!-- JavaScript fills this -->
+        </div>
+        <button id="close-modal">
+            Close
+        </button>
+    </dialog>
+    <footer>
+        <p>
+            © <span id="currentyear"></span>
+            Branden Graffagnino | WDD 231 Final Project
+        </p>
+        <p id="lastModified"></p>
+        <p>
+            <a href="attributions.html">
+                Attributions
+            </a>
+        </p>
+        <p>
+            #
+            Project Demonstration Video
+            </a>
+        </p>
+    </footer>
+</body>
+
+</html>

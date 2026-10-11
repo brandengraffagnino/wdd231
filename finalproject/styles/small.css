@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 1rem;
+    background-color: #2e8b57;
+    color: white;
+}
+
+header h1 {
+    font-size: 1.5rem;
+}
+
+#menu {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.show::before {
+    content: "✖";
+}
+
+.navigation {
+    display: none;
+    background-color: #f4b400;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}
+
+.navigation a:hover,
+.navigation .active {
+    background-color: #d99d00;
+    color: white;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    position: relative;
+
+    background-image: url("../images/hero.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+
+    color: white;
+
+    max-width: 800px;
+    padding: 1rem;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #f4b400;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: .9rem 1.5rem;
+    border-radius: 8px;
+}
+
+.cta-button:hover {
+    background-color: #ddb000;
+}
+
+.intro,
+.history,
+.featured-paddle,
+.why-learn {
+    background-color: white;
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .1);
+}
+
+.intro h2,
+.history h2,
+.featured-paddle h2,
+.why-learn h2 {
+    color: #2e8b57;
+    margin-bottom: 1rem;
+}
+
+#featured-paddle {
+    text-align: center;
+}
+
+.benefits {
+    display: grid;
+    gap: 1rem;
+}
+
+.benefits article {
+    background-color: #f5f7fa;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.benefits h3 {
+    color: #2e8b57;
+    margin-bottom: .5rem;
+}
+
+footer {
+    background-color: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: .5rem 0;
+}
+
+footer a {
+    color: #f4b400;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#paddle-container {
+    display: grid;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.paddle-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .1);
+    text-align: center;
+}
+
+.paddle-card img {
+    width: 100%;
+    max-width: 250px;
+    height: 250px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+.details-button {
+    margin-top: 1rem;
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    padding: .75rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+dialog {
+    max-width: 500px;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 10px;
+}
+
+#modal-content img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 1rem auto;
+}
+
+.contact-card {
+    background-color: white;
+
+    margin: 1rem;
+    padding: 1.5rem;
+
+    border-radius: 10px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .1);
+}
+
+.contact-card h2 {
+    color: #224a8a;
+    margin-bottom: 1rem;
+}
+
+.contact-card p {
+    margin-bottom: 1rem;
+}
+
+.contact-card form {
+    display: grid;
+    gap: 1rem;
+}
+
+.contact-card label {
+    display: grid;
+    gap: .4rem;
+    font-weight: bold;
+}
+
+.contact-card input,
+.contact-card select,
+.contact-card textarea {
+    padding: .75rem;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    font-family: inherit;
+}
+
+.contact-card input[type="submit"] {
+    background-color: #2e8b57;
+    color: white;
+
+    border: none;
+
+    font-size: 1rem;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.contact-card input[type="submit"]:hover {
+    background-color: #245d3f;
+}

@@ -1,0 +1,50 @@
+@media screen and (min-width: 768px) {
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+    }
+
+    .navigation ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navigation li {
+        flex: 1;
+        text-align: center;
+    }
+
+    .hero {
+        min-height: 450px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-content {
+        max-width: 800px;
+    }
+
+    .benefits {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .intro,
+    .history,
+    .featured-paddle,
+    .why-learn {
+        margin: 2rem auto;
+        max-width: 1100px;
+    }
+
+    #paddle-container {
+        grid-template-columns:
+            repeat(auto-fit,
+                minmax(300px, 1fr));
+    }
+}
